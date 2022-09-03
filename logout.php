@@ -2,7 +2,7 @@
 
 	session_start();
 
-	unset($_SESSION['superFM963']);
+	unset($_SESSION['******']);
 
 	header('location:login');
 

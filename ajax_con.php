@@ -116,7 +116,7 @@
 				$img3 = str_replace(' ', '+', $img3);
 				$data3 = base64_decode($img3);
 				$file3 = "musics/art/".$title_uid.'.jpg';
-				$file33 = "https://superfm963.com/apps/admin/musics/art/".$title_uid.'.jpg';
+				$file33 = "*******/apps/admin/musics/art/".$title_uid.'.jpg';
 				//$file2 = $uid.$time.'.jpg';
 				$success3 = file_put_contents($file3, $data3);
 

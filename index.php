@@ -1,14 +1,15 @@
 <?php
+  ob_start();
   include('connect.php');
   session_start();
   error_reporting(0);
 
-  if(!isset($_SESSION['SuperFM963'])){
+  if(!isset($_SESSION['******'])){
     header('location:login');
   }
   else{
     
-    $username = $_SESSION['SuperFM963'];
+    $username = $_SESSION['******'];
     $sql = mysqli_query($con, "select * from admins where username = '$username'");
     $num = mysqli_num_rows($sql);
 
